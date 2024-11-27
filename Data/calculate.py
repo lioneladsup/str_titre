@@ -18,11 +18,37 @@ from googleapiclient.discovery import build
 from google_auth_oauthlib.flow import InstalledAppFlow
 from google.auth.transport.requests import Request
 from google.oauth2 import service_account
+########## IMPORTS ##########
+import pandas as pd
+import json, os
 
+# Secret Manager
+from google.cloud import secretmanager
+
+# Varialble that will indicate if we run the script on our machine or github server
+LOCAL = os.getenv('LOCAL')
+
+########## FONCTIONS ##########
+
+def access_secret(secret_id, version_id = 'latest'):
+    """ Return the value of a secret's latest version"""
+    from google.cloud import secretmanager
+    # Create the secret manager client
+    client = secretmanager.SecretManagerServiceClient()
+
+    # Build the resource name of the secret version
+    name = f"{secret_id}/versions/{version_id}"
+
+    # Access the secret version
+    response = client.access_secret_version(name = name)
+
+    # Return the decoded payload
+    return response.payload.data.decode('UTF-8') # -> problème -> retourne un st
 
  
 
 def generate_new_title(row, langage):
+    openai.api_key = access_secret(secret_id = 'projects/318987655175/secrets/openia')
     row = row.fillna('')
     # Remplacer les occurrences de "beauty", "Beauty", "BEAUTY" par une chaîne vide dans la colonne 'brand'
     #row['brand'] = re.sub(r'beauty', '', row['brand'], flags=re.IGNORECASE)
@@ -264,6 +290,7 @@ def filter_old_ids(df_old, df_new):
     return filtered_df
 
 def generate_new_title_streamlit(row, prompt):
+    openai.api_key = access_secret(secret_id = 'projects/318987655175/secrets/openia')
     row = row.fillna('')
     # Remplacer les occurrences de "beauty", "Beauty", "BEAUTY" par une chaîne vide dans la colonne 'brand'
     #row['brand'] = re.sub(r'beauty', '', row['brand'], flags=re.IGNORECASE)
@@ -281,7 +308,7 @@ def generate_new_title_streamlit(row, prompt):
     #size = row['size']
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4", 
+            model="gpt-3.5-turbo", 
             messages=[
                 {"role": "system", "content": "Vous êtes un assistant qui génère des titres commerciaux pour des produits."},
                 {"role": "user", "content": prompt}
