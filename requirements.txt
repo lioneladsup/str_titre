@@ -13,7 +13,7 @@ oauth2client
 openpyxl
 Unidecode
 gspread
-streamlit==1.17.0
+streamlit==1.40.1
 google-cloud-firestore
 requests
 openai

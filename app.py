@@ -241,6 +241,12 @@ import streamlit as st
 import requests
 import pandas as pd
 
+import streamlit as st
+import pandas as pd
+import requests
+import xmltodict
+import urllib3
+
 # Fonction de login
 def login_page():
     st.title("Page de Login")
@@ -249,7 +255,8 @@ def login_page():
     if "logged_in" in st.session_state and st.session_state["logged_in"]:
         st.success("Vous êtes déjà connecté!")
         # Si connecté, ouvrir directement la page de gestion des flux
-        audit_page()  
+        st.session_state.page = "audit"  # Change the page state to 'audit'
+        audit_page()  # Directly call the audit page
     else:
         # Demander à l'utilisateur de saisir son nom d'utilisateur et son mot de passe
         username = st.text_input("Nom d'utilisateur")
@@ -257,13 +264,12 @@ def login_page():
 
         if st.button("Se connecter"):
             if username == "admin" and password == "password123":
-                st.session_state["logged_in"] = True  # Définir l'état de la session comme connecté
-                st.session_state["page"] = "audit"  # Marquer la page comme étant la page d'audit
+                # Définir l'état de la session comme connecté
+                st.session_state["logged_in"] = True
+                st.session_state["page"] = "audit"  # Set the page to 'audit' to simulate rerun behavior
                 st.success("Connexion réussie!")
-                # Rediriger vers la page d'audit directement
-                st.session_state["show_audit_page"] = True  # Indiquer que l'on doit afficher la page audit
-                # Effacer la page de login (réinitialiser le UI)
-                st.rerun()  # Utilisez st.rerun() pour recharger l'application et afficher la page suivante
+                # Effectuer un rerun pour que l'état de la session prenne effet
+                st.rerun()  # Forcer le rerun de l'application pour afficher la page d'audit
             else:
                 st.error("Nom d'utilisateur ou mot de passe incorrect.")
 
@@ -338,10 +344,8 @@ def audit_page():
             # Si l'utilisateur n'a pas rempli les deux champs
             st.error("Veuillez remplir les deux sections avant de cliquer sur Valider.")
 
-# Importer la fonction XMLImport (si non définie ailleurs)
+# Fonction pour importer et traiter les flux XML
 def XMLImport(url):
-    import xmltodict
-    import urllib3
     http = urllib3.PoolManager()
     response = http.request('GET', url)
     data = xmltodict.parse(response.data)
@@ -355,8 +359,9 @@ def XMLImport(url):
 
 # Démarrer l'application
 if __name__ == "__main__":
+    # Vérifier si l'utilisateur est connecté et gérer les pages
     if "logged_in" in st.session_state and st.session_state["logged_in"]:
-        # Si l'utilisateur est déjà connecté, on affiche la page de gestion des flux
+        # Si l'utilisateur est déjà connecté, afficher directement la page d'audit
         audit_page()
     else:
         # Sinon, afficher la page de login
