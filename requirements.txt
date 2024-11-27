@@ -16,7 +16,6 @@ gspread
 streamlit
 google-cloud-firestore
 requests
-smtplib
 ssl
 email
 openai
