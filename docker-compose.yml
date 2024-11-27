@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  streamlittitre:
+    image: streamlittitre
+    build:
+      context: .
+      dockerfile: ./Dockerfile
