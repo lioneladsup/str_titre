@@ -1,0 +1,4 @@
+BQ_SERVICE_ACCOUNT=credentials\bigquery_service_account.json
+GA3_SECRETS=credentials\google_analytics_secrets.json
+BQ_PROJECT_ID=adsupdata
+LOCAL=True

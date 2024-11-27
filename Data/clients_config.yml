@@ -1,0 +1,488 @@
+clients:
+
+  - name: armaniat
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/n3hxz6h'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504198281
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=0#gid=0'
+    language: DE
+
+  - name: valentinouk
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/44r2g3I'
+    separator: '|'
+    url_exports: 
+    gmc_id: 4009973600
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=0#gid=0'
+    language: EN
+
+
+  - name: valentinoat
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/44ubmBf'
+    separator: '|'
+    url_exports: 
+    gmc_id: 400992088
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=1074584376#gid=1074584376'
+    language: DE
+
+  - name: valentinobe
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/m6h59Um'
+    separator: '|'
+    url_exports: 
+    gmc_id: 400973588
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=161784844#gid=161784844'
+    language: FR
+
+  - name: valentinobenl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/8nu27uA'
+    separator: '|'
+    url_exports: 
+    gmc_id: 400973588
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=25452977#gid=25452977'
+    language: NL
+
+  - name: valentinoch
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vyqrfBi'
+    separator: '|'
+    url_export: https://docs.google.com/spreadsheets/d/1VA0JsLEu-QHvMEase7CB7gCJ1b7YbSgFuSy_jXycXQQ/edit#gid=0
+    gmc_id: 400992085
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=1065395987#gid=1065395987'
+    language: FR
+
+  - name: valentinochde
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2mj49Gw'
+    separator: '|'
+    url_export: https://docs.google.com/spreadsheets/d/1VA0JsLEu-QHvMEase7CB7gCJ1b7YbSgFuSy_jXycXQQ/edit#gid=0
+    gmc_id: 400992085
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=1147710561#gid=1147710561'
+    language: DE
+
+
+  - name: valentinode
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2we2rh8'
+    separator: '|'
+    url_exports: 
+    gmc_id: 400991353
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=164326348#gid=164326348'
+    language: DE
+
+  - name: valentinoes
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vj4htsl'
+    separator: '|'
+    url_exports: 
+    gmc_id: 400992076
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=1116015366#gid=1116015366'
+    language: ES
+
+  - name: valentinofr
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/mbx2c7Y'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414250734
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=168542523#gid=168542523'
+    language: FR
+
+  - name: valentinoit
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/4tpew3K'
+    separator: '|'
+    url_exports: 
+    gmc_id: 401002695
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=2093223357#gid=2093223357'
+    language: IT
+
+  - name: valentinonl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/jctfece'
+    separator: '|'
+    url_exports: 
+    gmc_id: 401002845
+    url_title: 'https://docs.google.com/spreadsheets/d/1nO6Ob6rz9BKQ-I8WbhZJxnI1khtfbLyAZAb8_7jgrUo/edit?gid=2129111978#gid=2129111978'
+    language: NL
+
+  - name: armaninl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vzbj73Q'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504219348
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=1074584376#gid=1074584376'
+    language: NL
+
+
+  - name: armanibe
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/4fh8fxt'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504198979
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=161784844#gid=161784844'
+    language: FR
+
+  - name: armanibenl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2hmuxnQ'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504198979
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=371513119#gid=371513119'
+    language: NL
+
+  - name: armanich
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/43ukrzu'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504198347
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=1065395987#gid=1065395987'
+    language: FR
+
+  - name: armanichde
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vwa22fZ'
+    separator: '|'
+    url_exports: 
+    gmc_id: 504198347
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=1824832704#gid=1824832704'
+    language: DE
+
+  - name: armanide
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/mp3ea0f'
+    separator: '|'
+    url_exports: 
+    gmc_id: 141060040
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=164326348#gid=164326348'
+    language: DE
+
+  - name: armanies
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/j4378ND'
+    separator: '|'
+    url_exports: 
+    gmc_id: 141060019
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=1116015366#gid=1116015366'
+    language: ES
+
+  - name: armanifr
+    compilation: Tru
+    url_flux: ''
+    separator: '|'
+    url_exports: 
+    gmc_id: 
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=168542523#gid=168542523'
+    language: FR
+
+
+  - name: armaniit
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/j9apzfj'
+    separator: '|'
+    url_exports: 
+    gmc_id: 141060037
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=2093223357#gid=2093223357'
+    language: IT
+
+  - name: armaniuk
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/n5g2ay3'
+    separator: '|'
+    url_exports: 
+    gmc_id: 757902754
+    url_title: 'https://docs.google.com/spreadsheets/d/1ah6z0LeLcaoXs-r8DuE3SAQC7NvPHE4rsyGsAgh2dYI/edit?gid=2129111978#gid=2129111978'
+    language: EN
+
+  - name: caritauk
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/rhwchqW'
+    separator: '|'
+    url_exports: 
+    gmc_id: 726455552
+    url_title: 'https://docs.google.com/spreadsheets/d/11LweRLt5YScJyaPaicfujAFeKsCdD3yQgT4EcWEogCQ/edit?gid=0#gid=0'
+    language: EN
+
+  - name: caritaes
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/4673aZE'
+    separator: '|'
+    url_exports: 
+    gmc_id: 726455711
+    url_title: 'https://docs.google.com/spreadsheets/d/11LweRLt5YScJyaPaicfujAFeKsCdD3yQgT4EcWEogCQ/edit?gid=1074584376#gid=1074584376'
+    language: ES
+
+  - name: caritade
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2shmgLW'
+    separator: '|'
+    url_exports: 
+    gmc_id: 726455627
+    url_title: 'https://docs.google.com/spreadsheets/d/11LweRLt5YScJyaPaicfujAFeKsCdD3yQgT4EcWEogCQ/edit?gid=161784844#gid=161784844'
+    language: DE
+
+
+  - name: caritafr
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vc9dh1k'
+    separator: '|'
+    url_exports: 
+    gmc_id: 725404980
+    url_title: 'https://docs.google.com/spreadsheets/d/11LweRLt5YScJyaPaicfujAFeKsCdD3yQgT4EcWEogCQ/edit?gid=1065395987#gid=1065395987'
+    language: FR
+
+
+  - name: caritait
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/nwh45YZ'
+    separator: '|'
+    url_exports: 
+    gmc_id: 726481039
+    url_title: 'https://docs.google.com/spreadsheets/d/11LweRLt5YScJyaPaicfujAFeKsCdD3yQgT4EcWEogCQ/edit?gid=164326348#gid=164326348'
+    language: IT
+
+  - name: helenait
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/czjvn6B'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414244211
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=0#gid=0'
+    language: IT
+
+  - name: helenaat
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/nz38gDF'
+    separator: '|'
+    url_exports: 
+    gmc_id: 376635724
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=1074584376#gid=1074584376'
+    language: DE
+
+  - name: helenabe
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vskukVo'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414263697
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=161784844#gid=161784844'
+    language: FR
+
+  - name: helenabenl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/6q34aCj'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414263697
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=168916664#gid=168916664'
+    language: NL
+
+  - name: helenach
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/4kkqvER'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414260728
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=1065395987#gid=1065395987'
+    language: FR
+
+  - name: helenachde
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2y32mXJ'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414260728
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=1461130623#gid=1461130623'
+    language: DE
+
+  - name: helenade
+    compilation: Tru
+    url_flux: ''
+    separator: '|'
+    url_exports: 
+    gmc_id: 
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=164326348#gid=164326348'
+    language: DE
+
+  - name: helenaes
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/m23y2kr'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414244103
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=1116015366#gid=1116015366'
+    language: ES
+
+  - name: helenafr
+    compilation: Tru
+    url_flux: ''
+    separator: '|'
+    url_exports: 
+    gmc_id: 
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=168542523#gid=168542523'
+    language: FR
+
+  - name: helenanl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/jm9utPs'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414243380
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=2093223357#gid=2093223357'
+    language: NL
+
+  - name: helenauk
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/rdjjqU0'
+    separator: '|'
+    url_exports: 
+    gmc_id: 414262965
+    url_title: 'https://docs.google.com/spreadsheets/d/1kNolZYM8rSY8-bMeTynQbXpTxm4dxaLiPepshEWfs-M/edit?gid=2129111978#gid=2129111978'
+    language: EN
+
+  - name: yslat
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/6e5cuBj'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586410059
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=0#gid=0'
+    language: DE
+
+  - name: yslbe
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/j5abzPG'
+    separator: '|'
+    url_exports: 
+    gmc_id: 571928606
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=1074584376#gid=1074584376'
+    language: FR
+
+  - name: yslbenl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/vwnk5zW'
+    separator: '|'
+    url_exports: 
+    gmc_id: 571928606
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=1554589889#gid=1554589889'
+    language: NL
+
+
+  - name: yslch
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/2s3w7MX'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586410176
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=161784844#gid=161784844'
+    language: FR
+
+  - name: yslchde
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/6c3hb9n'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586410176
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=1174344220#gid=1174344220'
+    language: DE
+
+  - name: yslde
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/rm93avp'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586418083
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=1065395987#gid=1065395987'
+    language: DE
+
+  - name: ysles
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/64wsukA'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586410182
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=164326348#gid=164326348'
+    language: ES
+
+  - name: yslfr
+    compilation: Tru
+    url_flux: ''
+    separator: '|'
+    url_exports: 
+    gmc_id: 
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=1116015366#gid=1116015366'
+    language: FR
+
+  - name: yslit
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/4mc28RC'
+    separator: '|'
+    url_exports: 
+    gmc_id: 586418077
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=168542523#gid=168542523'
+    language: IT
+
+  - name: yslnl
+    compilation: Tru
+    url_flux: 'https://feeds.lengow.io/3/musfhDv'
+    separator: '|'
+    url_exports: 
+    gmc_id: 663188401
+    url_title: 'https://docs.google.com/spreadsheets/d/1bZqrzOgD7YeqCqhgp3c6bDW7di38-aR_63g1BD8kRpQ/edit?gid=2093223357#gid=2093223357'
+    language: NL
+
+  - name: retif
+    compilation: Tru
+    url_flux: 'https://files.channable.com/dUTdNzdDRLqM7j1if-DF_Q==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 11377123
+
+  - name: retifnl
+    compilation: Tru
+    url_flux: 'https://files.channable.com/WWJtJQDxBewzSTnBypSSiQ==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 102982899
+
+  - name: retifbefr
+    compilation: True
+    url_flux: 'https://files.channable.com/GPLU_jN7Rx01-3aDFjq0oA==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 117809806
+    language: FR
+    url_title: 'https://docs.google.com/spreadsheets/d/1PTacAtpu2s570tiuGjM8gJpTRmyLzDlbJV0bS8Prcx0/edit?gid=0#gid=0'
+
+
+  - name: retifbenl
+    compilation: Tru
+    url_flux: 'https://files.channable.com/AhODwAJnWQqazbpt5MXSnw==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 117805578
+    
+  - name: retifde
+    compilation: Tru
+    url_flux: 'https://files.channable.com/zFrRRyY0npvB6XFRLk6f_g==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 643882296
+    language: DE
+
+  - name: gamm
+    compilation: Tru
+    url_flux: 'https://files.channable.com/zFrRRyY0npvB6XFRLk6f_g==.xml'
+    separator: '|'
+    url_exports: 
+    gmc_id: 643882296
+    language: FR
+    url_title: 'https://docs.google.com/spreadsheets/d/1O_Yj0xM4tbJnMQ1I_c2UQ-d7mkpA06Id4xTNhoCtNFM/edit?gid=0#gid=0'
