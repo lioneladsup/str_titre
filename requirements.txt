@@ -24,3 +24,4 @@ pyopenssl==23.0.0
 setuptools
 google-auth
 altair==4.2.0
+xmltodict
